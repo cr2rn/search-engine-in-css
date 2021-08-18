@@ -36,12 +36,12 @@ function App() {
         list='provinceList'
         onChange={(e) => setSearchValue(e.target.value)}
         className={css({
-          border: 'none',
-          borderBottom: '3px solid',
-          outline: 'none',
-          background: 'transparent',
-          height: 40,
-          fontSize: 20,
+          'border': 'none',
+          'borderBottom': '3px solid',
+          'outline': 'none',
+          'background': 'transparent',
+          'height': 40,
+          'fontSize': 20,
           '&:focus': {
             borderBottom: '3px solid #fec7d7',
             transition: 'all 1s',
